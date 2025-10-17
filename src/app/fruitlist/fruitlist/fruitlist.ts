@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './fruitlist.scss',
 })
 export class Fruitlist {
+  howItWorks = 'fine';
+
   fruitlist = [
     {
       name: 'Apfel',
