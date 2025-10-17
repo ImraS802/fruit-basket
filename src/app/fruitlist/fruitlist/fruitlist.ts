@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './fruitlist.html',
-  styleUrl: './fruitlist.scss',
+  styleUrls: ['./fruitlist.scss'],
 })
 export class Fruitlist {
-  howItWorks = 'fine';
+  howItWorks = 'not bad';
 
   fruitlist = [
     {
