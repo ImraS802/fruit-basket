@@ -12,7 +12,7 @@ export class Fruitlist {
   fruitlist = [
     {
       name: 'Apfel',
-      img: 'apple.png',
+      img: 'fruits/apple.png',
       description:
         'Äpfel sind aufgrund ihres hohen Wassergehalts kalorienarm und enthalten nur Spuren von Fett und Eiweiß, dafür aber rund zwei Prozent Ballaststoffe und etwa elf Prozent Kohlenhydrate. Äpfel enthalten auch viele Vitamine und Mineralstoffe und sind daher eine wichtige Quelle für uns - zum Beispiel für Vitamin C.',
       genus: 'Kernobstgewächsen innerhalb der Familie der Rosengewächse',
@@ -24,7 +24,7 @@ export class Fruitlist {
     },
     {
       name: 'Banane',
-      img: 'banana.png',
+      img: 'fruits/banana.png',
       description:
         'Bananen können bis zu 30 Zentimeter lang werden. Im reifen Zustand ist die Schale dick und gelb und lässt sich leicht abziehen. Das cremige bis gelbe Fruchtfleisch ist zunächst fest und stärkehaltig.',
       genus:
@@ -37,7 +37,7 @@ export class Fruitlist {
     },
     {
       name: 'Sauerkirsche',
-      img: 'cherry.png',
+      img: '/fruits/cherry.png',
       description:
         'Die Steinfrucht der Sauerkirsche hat einen Durchmesser von 15 bis 20 mm, ist etwa kugelförmig, etwas höher, breiter, unbehaart, frostfrei, hell- bis dunkelrot. Das Fruchtfleisch ist sauer und rot oder farblos.',
       genus: 'Pflanzenart aus der Familie der Rosengewächse (Rosaceae)',
@@ -46,7 +46,7 @@ export class Fruitlist {
     },
     {
       name: 'Erdbeere',
-      img: 'strawberry.png',
+      img: '/fruits/strawberry.png',
       description:
         'Aus Erdbeeren lässt sich beispielsweise Marmelade herstellen. Die Pflege von Pflanzen ist etwas mühsam, aber es lohnt sich. Erdbeeren aus dem eigenen Garten schmecken in vielen Fällen besser als Obst aus dem Supermarkt',
       genus: 'Pflanzenart aus der Familie der Rosengewächse (Rosaceae)',
@@ -58,7 +58,7 @@ export class Fruitlist {
     },
     {
       name: 'Zitrone',
-      img: 'lemon.png',
+      img: '/fruits/lemon.png',
       description:
         'Der immergrüne Baum bringt längliche, ovale Früchte (Zitronen) mit gelber oder gelbgrüner Schale hervor. Das saftige, säuerliche Fruchtfleisch enthält etwa 3,5–8 % Zitronensäure und erhebliche Mengen an Vitamin C.',
       genus: 'Pflanzenart aus der Familie der  Rautengewächse',
@@ -70,7 +70,7 @@ export class Fruitlist {
     },
     {
       name: 'Orange',
-      img: 'orange.png',
+      img: '/fruits/orange.png',
       description:
         'Das Innere der Orangenschale ist weiß und kann nicht gegessen werden. Es muss vor dem Verzehr abgeschält werden. Orangen können zu verschiedenen Produkten verarbeitet werden. Ihre gepressten Säfte werden als Orangensaft verkauft. Den Duft der Orangenschale nutzt man zur Herstellung eines Parfüms. Der Tee wird aus getrockneten Orangenschalen hergestellt.',
       genus: 'Pflanzenart aus der Familie der  Rautengewächse',
