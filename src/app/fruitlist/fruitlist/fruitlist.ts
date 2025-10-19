@@ -12,7 +12,7 @@ export class Fruitlist {
   fruitlist = [
     {
       name: 'Apfel',
-      img: 'fruits/apple.png',
+      img: '/fruits/apple.png',
       description:
         'Äpfel sind aufgrund ihres hohen Wassergehalts kalorienarm und enthalten nur Spuren von Fett und Eiweiß, dafür aber rund zwei Prozent Ballaststoffe und etwa elf Prozent Kohlenhydrate. Äpfel enthalten auch viele Vitamine und Mineralstoffe und sind daher eine wichtige Quelle für uns - zum Beispiel für Vitamin C.',
       genus: 'Kernobstgewächsen innerhalb der Familie der Rosengewächse',
@@ -24,7 +24,7 @@ export class Fruitlist {
     },
     {
       name: 'Banane',
-      img: 'fruits/banana.png',
+      img: '/fruits/banana.png',
       description:
         'Bananen können bis zu 30 Zentimeter lang werden. Im reifen Zustand ist die Schale dick und gelb und lässt sich leicht abziehen. Das cremige bis gelbe Fruchtfleisch ist zunächst fest und stärkehaltig.',
       genus:
