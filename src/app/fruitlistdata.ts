@@ -80,7 +80,7 @@ export class Fruitlistdata {
   ];
 
   addCommentToFruit(comment: string, index: number) {
-    this.fruitlistdata[index].reviews.push({
+    this.fruitlist[index].reviews.push({
       name: 'Lana Del Ray',
       text: comment,
     });
