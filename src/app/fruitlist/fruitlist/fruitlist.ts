@@ -1,14 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { Singlefruit } from '../singlefruit/singlefruit';
 
 @Component({
   selector: 'app-fruitlist',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, Singlefruit],
   templateUrl: './fruitlist.html',
   styleUrls: ['./fruitlist.scss'],
 })
 export class Fruitlist {
+  fontColorGood = 'green';
+  fontColorBad = 'red';
+
   fruitlist = [
     {
       name: 'Apfel',
@@ -81,4 +85,8 @@ export class Fruitlist {
       ],
     },
   ];
+
+  nameLog(name: string) {
+    console.log(name);
+  }
 }
