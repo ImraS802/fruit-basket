@@ -86,7 +86,11 @@ export class Fruitlist {
     },
   ];
 
-  nameLog(name: string) {
-    console.log(name);
+  addComment(comment: string, index: number) {
+    // console.log(comment);
+    this.fruitlist[index].reviews.push({
+      name: 'Lana Del Ray',
+      text: comment,
+    });
   }
 }
